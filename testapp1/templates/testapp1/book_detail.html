@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+{%block body_block%}
+    <h1>{{book.title}}Book information</h1>
+        <h2>Book title: {{book.title}}</h2>
+        <h2>Book author: {{book.author}}</h2>
+        <h2>num of pages: {{book.pages}}</h2>
+        <h2>Book price: {{book.price}}</h2>
+        <a href="/update/{{book.id}}/" class="btn btn-lg btn-warning">update</a>
+
+{%endblock%}
